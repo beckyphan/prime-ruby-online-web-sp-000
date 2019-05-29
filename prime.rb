@@ -3,7 +3,8 @@ def prime?(integer)
     if integer % number == 0 
       return true 
     else 
-      return false 
+      false 
     end
+    return false
   end
 end 
