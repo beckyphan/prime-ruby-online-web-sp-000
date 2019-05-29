@@ -11,7 +11,7 @@ def prime?(integer)
         nil 
       end 
     end 
-    if divisible_by.length == 1 
+    if divisible_by.length == 2
       return false
     else 
       return true
