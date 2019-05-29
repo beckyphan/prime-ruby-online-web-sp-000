@@ -11,10 +11,11 @@ def prime?(integer)
         false
       end
     end 
-    if divisible_by.length == 2
-      return false
-    else 
-      return true
-    end 
   end
+  
+  if divisible_by.length == 1
+    return true
+  else 
+    return false
+  end 
 end 
