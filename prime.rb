@@ -4,8 +4,6 @@ def prime?(integer)
   elsif integer == 2 
     return true 
   else
-    (2...integer).find do |number|
-      integer % number == 0 
-    end 
+    !(2...integer).any?(integer % number == 0)
   end
 end 
