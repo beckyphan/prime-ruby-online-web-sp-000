@@ -1,6 +1,6 @@
 def prime?(integer)
   divisible_by = []
-  if integer <= 0
+  if integer <= 1
     return false 
   else 
     (2...integer).each do |number|
