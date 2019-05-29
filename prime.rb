@@ -1,6 +1,7 @@
 def prime?(integer)
-  (2...integer).each do |number|
-    if integer % number == 0 
+    if integer < 0 
+      return false 
+    elsif integer % number == 0 
       return false 
     else 
       true 
