@@ -1,5 +1,6 @@
 def prime?(integer)
   divisible_by = []
+  
   if integer <= 1
     return false 
   else 
@@ -10,11 +11,10 @@ def prime?(integer)
         nil 
       end 
     end 
-  end 
-  
-  if divisible_by.length == 1 
-    return false
-  else 
-    return true
-  end 
+    if divisible_by.length == 1 
+      return false
+    else 
+      return true
+    end 
+  end
 end 
